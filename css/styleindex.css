@@ -71,3 +71,69 @@ body {
   border-radius: 4px;
   text-align: center;
 }
+
+.rooms {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.room {
+  margin-right: 30px;
+}
+
+.room a {
+  text-decoration: none;
+  color: #333;
+}
+
+.room p {
+  text-align: center;
+  color: #3d3d3d;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #6592c9
+
+}
+
+.room:last-child {
+  margin-right: 0px;
+} 
+
+.max-width-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.sec-container {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.sec-container h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.abouts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.about {
+  display: flex;
+  width: 45%;
+  margin: 0px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
